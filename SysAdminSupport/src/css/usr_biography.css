@@ -1,0 +1,48 @@
+#biography-flex > p{
+    font-family: Corbel;
+    font-size:xx-large;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+#container-field{
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#user-profile-flex{
+    height: 30%;
+    min-height: 190px;
+}
+#user_picture, img{
+    height: auto;
+    width: 180px;
+    float: left;
+    border-radius: 100px;
+}
+#usr-name-alignment{
+    display: flex;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 6%;
+    padding-left: 10px;
+    width: 50%;
+    font-family: Corbel;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#biography-flex{
+    padding: 10px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+#footer{
+    bottom: 0px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+

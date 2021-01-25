@@ -1,0 +1,35 @@
+body {
+    background-image: url(../img/bodybackgroundimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cards-background, img{
+    width: 100%;
+    padding: 0px;
+    
+}
+
+.container-card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+}
+.cardstyleContent:hover{
+    box-shadow: 5px 5px 8px 2px #2c0202;
+}
+.cardstyleContent{
+    box-shadow: 5px 5px 8px 2px;
+    text-align: Center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+#footer{
+    bottom: 0px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    position: fixed;  
+}

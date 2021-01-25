@@ -1,0 +1,23 @@
+.title{
+    background-image: url("../img/solutionsimg/powershellwallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    height: 30%;
+    color: #ffffff;
+}
+
+.list-content{
+    background-color: #000000;   
+}
+.powershellcontent{
+border: solid 5px #000000;
+}
+#footer{
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
