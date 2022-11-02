@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+}
+.main-container {
+    border: 5px solid tomato;
+    height: 98vh;
+    display: flex;
+
+}
+.bio-sub-container {
+    border: 2px solid tomato;
+    height: 70vh;
+    width: 30%;
+    margin: auto;
+    border-radius: 10px;
+    /*background-image: url("../img/bio_data_background_img.png"); */
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    
+}
+.bio-content-container {
+    border: 2px solid green;
+    margin:auto;
+    width: 50%;
+    height: 50vh;
+}
